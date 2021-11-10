@@ -1,9 +1,10 @@
 
 # Monacoin-OP_RETURN-training
-モナコインのOP_RETURNの作成手順
+モナコインのOP_RETURNの送信手順
 
 ## 目的:
 ブロックチェーンネットワークを活用したアプリケーションを作成するための練習。
+
 仕組みや機能を理解する事による応用技術の妄想。
 
  - ブロックチェーンに書き込まれたデータは短時間で世界中のコンピュータに同期する。
@@ -15,7 +16,9 @@
 
 ## 事前準備 - 1
 Monacoin Projectからウォレットをインストールする。
+
 https://monacoin.org/
+
 Monacoin Coreが起動したら同期するまでしばらく待つ。
 
 monacoin.conf に次の設定を入れて再起動する。
@@ -30,7 +33,11 @@ MONAコインを掘るか買うかして若干入れる。
 
 ## 事前準備 - 2
 PHPの実行環境をインストールする。
+
 https://www.php.net/
+
 インターネット利用者なら誰でもできて当然なので詳細は省く。
 
+## OP_RETURN送受信の方法
 readme_transmit.md と readme_recive.md を参照
+
